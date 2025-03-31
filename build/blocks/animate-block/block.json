@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "fwd-blocks/animate-block",
+  "version": "1.0.0",
+  "title": "Animate Block",
+  "category": "design",
+  "icon": "animation",
+  "description": "A block that adds scroll animations to its content.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "animationType": {
+      "type": "string",
+      "default": "fade-up"
+    }
+  },
+  "textdomain": "school",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
